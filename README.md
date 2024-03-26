@@ -11,7 +11,7 @@
 
 # 📝 Descrição
 
-   Projeto desenvolvido para o Desafio: <b>7 Days of Code - HTML e CSS<b> da <a href="https://www.alura.com.br">Alura<a/>. Orientado pela <b>Giovanna Moeller</b>. Esse desafio faz parte da formação Front-End da Alura, que tem como objetivo treinar os conhecimentos aprendidos no curso de HTML e CSS.
+   Projeto desenvolvido para o Desafio: <b>7 Days of Code - HTML e CSS</b> da <a href="https://www.alura.com.br">Alura<a/>. Orientado pela <b>Giovanna Moeller</b>. Esse desafio faz parte da formação Front-End da Alura, que tem como objetivo treinar os conhecimentos aprendidos no curso de HTML e CSS.
 <br>
    Esse desafio consiste em criar uma página de um site de empregos, e foi necessário desenvolver a pagina a partir do projeto enviado pelo no Figma.
 
@@ -38,7 +38,7 @@ Projeto desenvolvido utilizando as seguintes tecnologias:
 
 <div align="center">
 <h3>Página em Desenvolvimento</h3><br>
-      <img src="https://github.com/filipe-oliveiradev/OptimusTech/assets/157177590/d9abcb21-a63e-434f-bf01-9efed9c47480" alt="Cabeçalho do projeto OptimusTech"></a>
+      
 </div>
 
 
