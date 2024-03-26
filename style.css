@@ -1,0 +1,61 @@
+:root {
+    --cor-preto: #101828;
+    --cor-cinza: #667085;
+    --cor-vinho: #8E2424;
+    --cor-branco: #FFFFFF;
+
+    --fonte-principal: "Inter";
+}
+
+body {
+    background-color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    color: var(--cor-cinza);
+    font-size: 16px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em 2.5em;
+    align-items: center;
+}
+
+.header__item {
+    text-decoration: none;
+    color:var(--cor-cinza);   
+    padding: 0.25em 1em;
+    
+}
+
+.header__cadastro {
+    background-color: var(--cor-vinho);
+    border-radius: 5px;
+    padding: 0.75em;
+    color: var(--cor-branco);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 16em;
+    gap: 2em;
+}
+
+.cabecalho__topico {
+    color: var(--cor-vinho);
+    font-weight: 500;
+}
+
+.cabecalho__titulo {
+    color: var(--cor-preto);
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.cabecalho__texto {
+    color: var(--cor-cinza);
+    font-size: 20px;
+    text-align: center;
+}
