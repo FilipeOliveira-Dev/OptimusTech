@@ -21,7 +21,7 @@
 <li> Day 02 - Primeira Seção ✅
 <li> Day 03 - Seção de Métricas ✅
 <li> Day 04 - Seção com Imagem ✅
-<li> Day 05 - Seção de Vagas
+<li> Day 05 - Seção de Vagas ✅
 <li> Day 06 - <br>
 <li> Day 07 - <br>
 
