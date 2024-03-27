@@ -25,7 +25,6 @@ body {
     text-decoration: none;
     color:var(--cor-cinza);   
     padding: 0.25em 1em;
-    
 }
 
 .header__cadastro {
@@ -34,7 +33,6 @@ body {
     padding: 10px 18px;
     color: var(--cor-branco);
     font-weight: 300;
-    
 }
 
 .cabecalho {
@@ -82,12 +80,50 @@ body {
     color: var(--cor-vinho);
     font-weight: 500;
 }
+
 .metricas__titulo {
     font-size: 18px;
     color: var(--cor-preto);
     font-weight: 400;
 }
+
 .metricas__texto {
     color: var(--cor-cinza);
     font-weight: 300;
 }
+
+.vagas {
+    padding: 96px 80px 64px 80px; 
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner__status {
+    color: var(--cor-vinho);
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.banner__titulo {
+    color: var(--cor-preto);
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.banner__texto {
+    color: var(--cor-cinza);
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 64px;
+}
+
+.banner__imagem {
+    margin: 0 60px;
+    align-content: center;
+}
+
