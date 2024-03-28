@@ -5,6 +5,7 @@
     --cor-vinho: #8E2424;
     --cor-rosa: #F9F4F4;
     --cor-branco: #FFFFFF;
+    --cor-bege: #FDF8F8;
 
     --fonte-principal: "Inter";
 }
@@ -54,6 +55,7 @@ body {
     color: var(--cor-preto);
     font-size: 48px;
     font-weight: 500;
+    text-align: center;
 }
 
 .cabecalho__texto {
@@ -168,3 +170,97 @@ body {
     color: var(--cor-preto);
     font-size: 18px;
 }
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px 96px 80px;
+}
+
+.depoimentos__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-bege);
+    padding: 64px;
+    margin: 0 32px;
+    gap: 16px;
+}
+
+.depoimentos__titulo {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-align: center;
+    color: var(--cor-vinho);
+}
+
+.depoimentos__texto {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: var(--cor-preto);
+}
+
+.depoimentos__nome {
+    color: var(--cor-preto);
+    margin: 16px 0 4px 0;
+}
+
+.depoimentos__cargo {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIE - ESTILIZAÇÕES PARA TELA DE TABLET */
+@media screen and (max-width: 1024px) {
+    .header__navegacao {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header__container {
+        flex-direction: column;
+        padding: 18px 80px;
+        align-items: center;
+    }
+
+    .metricas__container {
+        flex-wrap: wrap;
+    }
+
+    .vagas-por-setor {
+        margin: 0 20vw;
+    }
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIE - ESTILIZAÇÕES PARA TELA DE CELULAR */
+@media screen and (max-width: 428px) {
+    .header__navegacao {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .metricas__container {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
+
